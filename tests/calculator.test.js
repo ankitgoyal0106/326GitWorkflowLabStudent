@@ -15,6 +15,13 @@ describe('Calculator Calculation Functions', function() {
     });
 });
 
+describe('Calculator Calculation Functions', function() {
+    const res = calculator.calculateSquareRoot(16);
+    it('should return 4', function() {
+        assert.strictEqual(res, 4);
+    });
+});
+
 
 // Add your tests here
 describe('Calculator Reciprocal Function', function() {
